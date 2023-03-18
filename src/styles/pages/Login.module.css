@@ -1,16 +1,28 @@
-img {
-  height: 200px;
-  width: 200px;
+.login {
+  position: relative;
 }
-.container {
+
+.userIcon {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginBox {
+  height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-.inputContainer {
+.inputBox {
   display: flex;
   flex-direction: column;
+}
+
+.inputBox > div {
+  margin: 10px;
 }
