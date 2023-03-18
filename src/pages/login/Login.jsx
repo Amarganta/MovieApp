@@ -1,6 +1,5 @@
 import React from "react";
-import styles from "../styles/routes/Login.module.css";
-import userIcon from "../../public/user-286-512.png";
+import styles from "../../styles/pages/Login.module.css";
 const Login = () => {
   return (
     <div className={styles.container}>
